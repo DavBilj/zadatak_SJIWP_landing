@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natjecanja</title>
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-slate-100 dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+
+    <header class="flex items-center justify-between p-4 bg-white shadow-sm dark:bg-slate-800">
+        <img src="logo.png" alt="logo" class="h-6 w-10 dark:hidden">
+        <img src="logoDARK.png" alt="logoDARK" class="h-6 w-10 hidden dark:block">
+        <a href="#" class="focus-ring rounded-lg text-xl font-bold text-brand">Natjecanja</a>
+        <nav class="flex gap-4">
+            <a href="index.html"
+                class="focus-ring rounded-lg px-4 py-2 bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-100 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors dark:hover:text-brand ">Katalog</a>
+            <a href="kontakt.html"
+                class="focus-ring rounded-lg px-4 py-2 bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-100 font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors dark:hover:text-brand">Kontakt</a>
+        </nav>
+        </nav>
+    </header>
+    <main class="grid lg:grid-cols-4 gap-6 max-w-6xl mx-auto p-6">
+        <section id="katalog" class="lg:col-span-3">
+            <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold pb-10 pt-10">Dobrodošli na stranicu natjecanja</h1>
+
+            <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 mt-6">
+
+                <!-- Kartice  -->
+                <article class="card @container group flex flex-col transition-transform duration-300 hover:scale-105">
+                    <h2 class="text-lg font-bold group-hover:text-brand">
+                        Hackathon
+                    </h2>
+
+                    <p class="flex-1 mt-2 text-slate-600 leading-relaxed dark:text-slate-400">
+                        Napravi najbolji projekt u 24 sata i osvoji nagradu!
+                    </p>
+
+                    <div class="flex flex-col gap-4 mt-4 @sm:flex-row @sm:items-end @sm:justify-between">
+                        <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                            <li>Srijeda, 18:00</li>
+                            <li>Dvorana 1</li>
+                        </ul>
+
+                        <a href="#" class="btn-primary">
+                            Prijavi se
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card @container group flex flex-col transition-transform duration-300 hover:scale-105">
+                    <h2 class="text-lg font-bold group-hover:text-brand">
+                        Trčanje
+                    </h2>
+
+                    <p class="flex-1 mt-2 text-slate-600 leading-relaxed dark:text-slate-400">
+                        Polumaraton u centru grada. Prijavi se i osvoji medalju!
+                    </p>
+
+                    <div class="flex flex-col gap-4 mt-4 @sm:flex-row @sm:items-end @sm:justify-between">
+                        <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                            <li>Subota, 11:00</li>
+                            <li>Centar grada</li>
+                        </ul>
+
+                        <a href="#" class="btn-primary">
+                            Prijavi se
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card @container group flex flex-col transition-transform duration-300 hover:scale-105">
+                    <h2 class="text-lg font-bold group-hover:text-brand">
+                        Plivanje
+                    </h2>
+
+                    <p class="flex-1 mt-2 text-slate-600 leading-relaxed dark:text-slate-400">
+                        Natjecanje u plivanju na 100 metara. Prijavi se i osvoji medalju!
+                    </p>
+
+                    <div class="flex flex-col gap-4 mt-4 @sm:flex-row @sm:items-end @sm:justify-between">
+                        <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                            <li>Nedjelja, 9:00</li>
+                            <li>Gradski bazeni</li>
+                        </ul>
+
+                        <a href="#" class="btn-primary">
+                            Prijavi se
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card @container group flex flex-col transition-transform duration-300 hover:scale-105">
+                    <h2 class="text-lg font-bold group-hover:text-brand">
+                        Šahovski turnir
+                    </h2>
+
+                    <p class="flex-1 mt-2 text-slate-600 leading-relaxed dark:text-slate-400">
+                        Natjecanje u šahu. Prijavi se i osvoji medalju!
+                    </p>
+
+                    <div class="flex flex-col gap-4 mt-4 @sm:flex-row @sm:items-end @sm:justify-between">
+                        <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                            <li>Utorak, 14:00</li>
+                            <li>Šahovska klub</li>
+                        </ul>
+
+                        <a href="#" class="btn-primary">
+                            Prijavi se
+                        </a>
+                    </div>
+                </article>
+        </section>
+
+        <aside class="p-6 bg-white rounded-card shadow-sm dark:bg-slate-800 h-fit">
+            <h2 class="font-bold text-lg text-center shadow-md mb-4">KAKO DO PRIJAVE</h2>
+            <ol class="space-y-3 list-decimal list-inside text-slate-600 dark:text-slate-300 text-center text-sm">
+                <li>Odaberi radionicu</li>
+                <li>Klikni "Prijavi se"</li>
+                <li>Potvrdi e-mail adresu</li>
+            </ol>
+        </aside>
+    </main>
+
+
+
+
+
+
+    <footer id="kontakt" class="p-6 text-brand text-center text-sm dark:text-brand">
+        natjecanja@example.com &copy; 2026 natjecanja
+    </footer>
+</body>
+
+</html>
